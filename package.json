@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "debug": "npx web-ext run",
+        "build": "npx web-ext build --a ./artifacts --i package.json package-lock.json -o"
+    },
+    "dependencies": {
+        "web-ext": "^9.3.0"
+    }
+}

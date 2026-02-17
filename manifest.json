@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Kunai",
+    "version": "1.0",
+    "description": "My personal web automation toolkit",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "@kunai",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+    "icons": {
+        "48": "icons/kunai-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://unsplash.com/*"],
+            "js": ["scripts/unsplash.js"]
+        }
+    ]
+}
