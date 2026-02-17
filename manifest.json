@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Kunai",
-    "version": "1.0",
+    "version": "1.1",
     "description": "My personal web automation toolkit",
     "browser_specific_settings": {
         "gecko": {
