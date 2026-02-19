@@ -18,6 +18,10 @@
         {
             "matches": ["https://unsplash.com/*"],
             "js": ["scripts/unsplash.js"]
+        },
+        {
+            "matches": ["https://pixabay.com/*"],
+            "js": ["scripts/pixabay.js"]
         }
     ]
 }
